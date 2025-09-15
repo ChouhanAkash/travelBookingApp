@@ -1,50 +1,65 @@
-# Welcome to your Expo app 👋
+# Travel App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple React Native travel app that allows users to explore destinations, book trips, and view their profile with past and upcoming trips.
 
-## Get started
+## Screens
 
-1. Install dependencies
+1. **Home Screen**
+   - Search destinations.
+   - Browse categories: Flights, Hotels, Cabs.
+   - View featured trips with images.
 
-   ```bash
-   npm install
-   ```
+2. **Explore Screen**
+   - Explore popular destinations.
+   - Animated cards with scaling and opacity effect on scroll.
 
-2. Start the app
+3. **Booking Screen**
+   - Book a trip by entering destination, date, and number of people.
+   - Confirm booking with a button.
 
-   ```bash
-   npx expo start
-   ```
+4. **Profile Screen**
+   - View user profile, avatar, and about section.
+   - See past and upcoming trips with icons.
 
-In the output, you'll find options to open the app in a
+## Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Clean and responsive UI.
+- Horizontal and vertical scrolling lists.
+- Animated destination cards on Explore screen.
+- User-friendly forms for booking trips.
+- Uses `React Native` and `Expo` vector icons.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Installation
 
-## Get a fresh project
-
-When you're ready, run:
+1. Clone the repository:
 
 ```bash
-npm run reset-project
-```
+git clone https://github.com/ChouhanAkash/travelBookingApp.git
+ 
+ 2. Install dependencies:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+npm install
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+Run the app:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+npm start
 
-## Join the community
 
-Join our community of developers creating universal apps.
+or
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+expo start
+
+Dependencies
+
+react-native
+
+expo
+
+@expo/vector-icons
+
+## Screenshots
+src
+|_ assets
+
+
